@@ -4,11 +4,11 @@
     justify-content: center;
     margin: auto;
     align-items: center;
-    margin-top: 100px;
+    
 }
 
 .module-data {
-    /* border: 1px solid red; */
+    
 	width: 50%;
     height: 70%;
 	position: absolute;

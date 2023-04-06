@@ -6,8 +6,15 @@ import M1I2 from "../Images/m2t2.png";
 import M1I3 from "../Images/m1t3.png";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass, faHouse } from "@fortawesome/free-solid-svg-icons";
-import { Heading, Tab, TabList, TabPanel, TabPanels, Tabs } from "@chakra-ui/react";
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
+import {
+  Heading,
+  Tab,
+  TabList,
+  TabPanel,
+  TabPanels,
+  Tabs,
+} from "@chakra-ui/react";
 
 export const Module1 = () => {
   return (
@@ -23,53 +30,91 @@ export const Module1 = () => {
         </div>
       </Link>
       <div className="Heading">
-      <h1> Module One</h1>
+        <h1> Module One</h1>
       </div>
       <div className="module-data">
-        <Tabs size='large'>
-          <TabList className="tab-list" >
-            <Tab _selected={{ color: 'blue.500', bg: 'white', width:"200px", height:"60px" }}  >Tab 1</Tab>
-            <Tab _selected={{ color: 'blue.500', bg: 'white', width:"200px", height:"60px" }}>Tab 2</Tab>
-            <Tab _selected={{ color: 'blue.500', bg: 'white' , width:"200px", height:"60px"}}>Tab 3</Tab>
+        <Tabs size="large">
+          <TabList className="tab-list">
+            <Tab
+              _selected={{
+                color: "blue.500",
+                bg: "white",
+                width: "200px",
+                height: "60px",
+              }}
+            >
+              Tab 1
+            </Tab>
+            <Tab
+              _selected={{
+                color: "blue.500",
+                bg: "white",
+                width: "200px",
+                height: "60px",
+              }}
+            >
+              Tab 2
+            </Tab>
+            <Tab
+              _selected={{
+                color: "blue.500",
+                bg: "white",
+                width: "200px",
+                height: "60px",
+              }}
+            >
+              Tab 3
+            </Tab>
           </TabList>
 
           <TabPanels>
             <TabPanel className="tab1">
               <div>
-              <img className="m1i1" src={M1I1} alt="m1i1" />
+                <img className="m1i1" src={M1I1} alt="m1i1" />
               </div>
               <div className="text-data">
-              <Heading>Ut hendrerit est tovegh</Heading>
-				<p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia reprehenderit ullam, eveniet laborum aliquam aspernatur eius reiciendis a magni pariatur dolore eaque ducimus temporibus dolorem, quam eos assumenda, natus inventore sed labore odio quae quod repellat ipsam. Quidem.
-				</p>
+                <Heading>Ut hendrerit est tovegh</Heading>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
+                  reprehenderit ullam, eveniet laborum aliquam aspernatur eius
+                  reiciendis a magni pariatur dolore eaque ducimus temporibus
+                  dolorem, quam eos assumenda, natus inventore sed labore odio
+                  quae quod repellat ipsam. Quidem.
+                </p>
               </div>
             </TabPanel>
             <TabPanel className="tab1">
               <div>
-              <img className="m1i1" src={M1I2} alt="m1i1" />
+                <img className="m1i1" src={M1I2} alt="m1i1" />
               </div>
               <div className="text-data">
-              <Heading>Fusce sem magna cursus</Heading>
-				<p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia reprehenderit ullam, eveniet laborum aliquam aspernatur eius reiciendis a magni pariatur dolore eaque ducimus temporibus dolorem, quam eos assumenda, natus inventore sed labore odio quae quod repellat ipsam. Quidem.
-				</p>
+                <Heading>Fusce sem magna cursus</Heading>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
+                  reprehenderit ullam, eveniet laborum aliquam aspernatur eius
+                  reiciendis a magni pariatur dolore eaque ducimus temporibus
+                  dolorem, quam eos assumenda, natus inventore sed labore odio
+                  quae quod repellat ipsam. Quidem.
+                </p>
               </div>
             </TabPanel>
             <TabPanel className="tab1">
               <div>
-              <img className="m1i1" src={M1I3} alt="m1i1" />
+                <img className="m1i1" src={M1I3} alt="m1i1" />
               </div>
               <div className="text-data">
-              <Heading>Ut hendrerit est tovegh</Heading>
-				<p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia reprehenderit ullam, eveniet laborum aliquam aspernatur eius reiciendis a magni pariatur dolore eaque ducimus temporibus dolorem, quam eos assumenda, natus inventore sed labore odio quae quod repellat ipsam. Quidem.
-				</p>
+                <Heading>Ut hendrerit est tovegh</Heading>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
+                  reprehenderit ullam, eveniet laborum aliquam aspernatur eius
+                  reiciendis a magni pariatur dolore eaque ducimus temporibus
+                  dolorem, quam eos assumenda, natus inventore sed labore odio
+                  quae quod repellat ipsam. Quidem.
+                </p>
               </div>
             </TabPanel>
           </TabPanels>
         </Tabs>
-        
       </div>
     </div>
   );
