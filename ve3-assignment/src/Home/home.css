@@ -64,3 +64,13 @@
     text-decoration: none;
     
 }
+.home-btn{
+    width: 20%;
+	position: absolute;
+	right: 80px;
+	top: 20px;
+	z-index: 1;
+	color: #0d4f86;
+	line-height: 2em;
+    
+}
