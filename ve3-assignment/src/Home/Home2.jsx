@@ -43,7 +43,7 @@ export const Home2 = () => {
        
         <Link style={{textDecoration: 'none'}} className="home-enter-link" to={'/options'}>
 					<div>
-						
+						Select Module
 						<FontAwesomeIcon icon={faArrowRightLong} />
 					</div>
 				</Link>

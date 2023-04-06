@@ -15,7 +15,7 @@ export const Home1 = () => {
 				<p>
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia reprehenderit ullam, eveniet laborum aliquam aspernatur eius reiciendis a magni pariatur dolore eaque ducimus temporibus dolorem, quam eos assumenda, natus inventore sed labore odio quae quod repellat ipsam. Quidem.
 				</p>
-        <Link className="home-enter-link" to={'/options'}>
+        <Link style={{textDecoration: 'none'}}  className="home-enter-link" to={'/options'}>
 					<div>
 						Enter
 						<FontAwesomeIcon icon={faArrowRightLong} />
